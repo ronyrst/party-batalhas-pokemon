@@ -157,32 +157,32 @@ public class Batalhas {
 		letraMinuscula = letra.toLowerCase();
 		
 		switch(letraMinuscula) {
-		case "a": return tipos.get(1);
-		case "b": return tipos.get(2);
-		case "c": return tipos.get(3);
-		case "d": return tipos.get(4);
-		case "e": return tipos.get(5);
-		case "f": return tipos.get(6);
-		case "g": return tipos.get(7);
-		case "h": return tipos.get(8);
-		case "i": return tipos.get(9);
-		case "j": return tipos.get(10);
-		case "k": return tipos.get(11);
-		case "l": return tipos.get(12);
-		case "m": return tipos.get(13);
-		case "n": return tipos.get(14);
-		case "o": return tipos.get(15);
-		case "p": return tipos.get(16);
-		case "q": return tipos.get(17);
-		case "r": return tipos.get(18);
-		case "s": return tipos.get(19);
-		case "t": return tipos.get(20);
-		case "u": return tipos.get(21);
-		case "v": return tipos.get(22);
-		case "w": return tipos.get(23);
-		case "x": return tipos.get(24);
-		case "y": return tipos.get(25);
-		case "z": return tipos.get(26);
+		case "a": return tipos.get(0);
+		case "b": return tipos.get(1);
+		case "c": return tipos.get(2);
+		case "d": return tipos.get(3);
+		case "e": return tipos.get(4);
+		case "f": return tipos.get(5);
+		case "g": return tipos.get(6);
+		case "h": return tipos.get(7);
+		case "i": return tipos.get(8);
+		case "j": return tipos.get(9);
+		case "k": return tipos.get(10);
+		case "l": return tipos.get(11);
+		case "m": return tipos.get(12);
+		case "n": return tipos.get(13);
+		case "o": return tipos.get(14);
+		case "p": return tipos.get(15);
+		case "q": return tipos.get(16);
+		case "r": return tipos.get(17);
+		case "s": return tipos.get(18);
+		case "t": return tipos.get(19);
+		case "u": return tipos.get(20);
+		case "v": return tipos.get(21);
+		case "w": return tipos.get(22);
+		case "x": return tipos.get(23);
+		case "y": return tipos.get(24);
+		case "z": return tipos.get(25);
 		}
 		
 		return "agua";

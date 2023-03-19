@@ -19,6 +19,7 @@ public class Batalhas {
 			System.out.println("**********************************************");
 			System.out.println("*                                            *");
 			System.out.println("*             B A T A L H A S                *");
+			System.out.println("*              P O K É M O N                 *");
 			System.out.println("*           G E N E R A T I O N              *");
 			System.out.println("*                                            *");
 			System.out.println("**********************************************");
@@ -47,6 +48,9 @@ public class Batalhas {
 				
 				System.out.println("");
 				
+				System.out.println("*******************************");
+				System.out.println("        " + i + "º  E M B A T E     ");
+				System.out.println("*******************************");
 				// Primeiro Pokemon
 				System.out.println(treinadorA + " escolha o seu combatente!");
 				System.out.println("Entre com o nome da pessoa:");
@@ -100,7 +104,6 @@ public class Batalhas {
 					contadorVitoria += 1;
 				}
 				else if(tipoA == "fogo" && tipoB == "agua") {
-					System.out.println(pokemonB + " venceu!");
 					System.out.println("*          D  *  V");
 					contadorVitoria += -1;
 				}
@@ -121,9 +124,9 @@ public class Batalhas {
 				System.out.println("*******************************");
 				
 				if(contadorVitoria > 0)
-					System.out.println("        " + treinadorA);
+					System.out.println("            " + treinadorA);
 				else
-					System.out.println("        " + treinadorB);
+					System.out.println("            " + treinadorB);
 				
 				System.out.println("*******************************");
 			}
@@ -145,13 +148,13 @@ public class Batalhas {
 	
 	public static String defineTipo(String letra) {
 		List<String> tipos = Arrays.asList(
-				 "agua", "agua", "agua", "agua", "agua",
-				 "agua", "agua", "agua", "agua", "agua",
-				 "agua", "agua", "agua", "agua", "agua",
-				 "agua", "agua", "agua", "agua", "agua",
-				 "agua", "agua", "agua", "agua", "agua",
-				 "agua"
-				 );
+				"fogo","planta","planta","agua","fogo",
+				"planta","planta","agua","agua","agua",
+				"agua","agua","planta","agua","agua",
+				"fogo","agua","planta","agua","agua",
+				"fogo","planta","planta","planta","planta",
+				"fogo"
+				);
 		String letraMinuscula;
 		
 		letraMinuscula = letra.toLowerCase();
